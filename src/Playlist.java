@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Playlist {
     private static final Scanner scanner = new Scanner(System.in);
 
-    private ArrayList<Song> playlist;
+    private final ArrayList<Song> playlist;
 
     public Playlist(){
         this.playlist=new ArrayList<>();
